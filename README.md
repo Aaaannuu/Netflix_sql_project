@@ -13,6 +13,7 @@ Explore and categorize content based on specific criteria and keywords.
 
 ## Schema 
 
+
 create table netflix(
                     show_id	varchar(7),
                     type	varchar(8),
@@ -28,8 +29,12 @@ create table netflix(
                     description varchar(270)
 );
 
+
+## Business Problems and Solutions
+
 select * from netflix;
---1. Count the number and percentage of type of Movies vs TV Shows 
+
+# 1. Count the number and percentage of type of Movies vs TV Shows 
 Select 
         type , 
 		count(*) as type_count,
