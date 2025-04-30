@@ -11,6 +11,8 @@ Explore and categorize content based on specific criteria and keywords.
 
 ## Dataset
 
+- <a href="https://github.com/Aaaannuu/Netflix_sql_project/blob/main/Netflix.csv"> DataSet
+  
 ## Schema 
 
         create table netflix(
